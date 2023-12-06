@@ -27,11 +27,6 @@
             <Font name="Arial Black" size="25.0" />
           </font>
         </Label>
-        <Button fx:id="button_cancel" layoutX="340.0" layoutY="33.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #A9A9A9; cursor: hand;" text="Cancel">
-          <font>
-            <Font name="SansSerif Regular" size="12.0" />
-          </font>
-        </Button>
         <Label layoutX="150.0" layoutY="70.0" text="Login" underline="true">
           <font>
             <Font name="Arial Black" size="25.0" />

@@ -21,6 +21,9 @@ import java.util.ResourceBundle;
         private Button button_log_in;
 
         @FXML
+        private Button button_cancel;
+
+        @FXML
         private TextField tf_username;
 
         @FXML
@@ -63,6 +66,13 @@ import java.util.ResourceBundle;
             });
 
             button_log_in.setOnAction(new EventHandler<ActionEvent>() {
+                @Override
+                public void handle(ActionEvent event) {
+                    DBUtils.changeScene(event,"hello-view.fxml","Log in!",null);
+                }
+            });
+
+            button_cancel.setOnAction(new EventHandler<ActionEvent>() {
                 @Override
                 public void handle(ActionEvent event) {
                     DBUtils.changeScene(event,"hello-view.fxml","Log in!",null);
