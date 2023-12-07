@@ -26,7 +26,8 @@ public class HelloController implements Initializable{
     @FXML
     private TextField pf_password;
 
-
+    @FXML
+    private Button button_cancel;
 
 
     @Override
@@ -42,6 +43,13 @@ public class HelloController implements Initializable{
             @Override
             public void handle(ActionEvent event) {
                 DBUtils.changeScene(event,"sign-up.fxml","Sign Up!",null);
+            }
+        });
+
+        button_cancel.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                System.exit(30);
             }
         });
     }
