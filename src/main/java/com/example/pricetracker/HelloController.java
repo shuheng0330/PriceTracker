@@ -24,7 +24,7 @@ public class HelloController implements Initializable{
     private TextField tf_username;
 
     @FXML
-    private TextField tf_password;
+    private TextField pf_password;
 
 
 
@@ -34,7 +34,7 @@ public class HelloController implements Initializable{
         button_login.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                DBUtils.logInUser(event,tf_username.getText(),tf_password.getText());
+                DBUtils.logInUser(event,tf_username.getText(),pf_password.getText());
             }
         });
 

@@ -67,7 +67,7 @@
             <Image url="C:\Users\User2022\IdeaProjects\PriceTracker\src\main\java\com\example\pricetracker\search-product.png" />
           </image>
         </ImageView>
-            <PasswordField layoutX="100.0" layoutY="185.0" prefHeight="30.0" prefWidth="250.0" promptText="Password" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 5;" />
+            <PasswordField fx:id="pf_password" layoutX="100.0" layoutY="185.0" prefHeight="30.0" prefWidth="250.0" promptText="Password" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 5;" />
       </children>
     </AnchorPane>
   </children>
