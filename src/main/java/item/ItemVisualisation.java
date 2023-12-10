@@ -80,7 +80,7 @@ import java.util.Scanner;
 
         public static void main(String[] args) {
 
-            String priceCatcherFilePath = "C:\\Users\\User2022\\Downloads\\pricecatcher_2023-08 (1).csv";
+            String priceCatcherFilePath ="C:\\Users\\User2022\\Downloads\\pricecatcher_2023-08.csv";
             String lookupPremiseFilePath = "C:\\Users\\User2022\\Downloads\\lookup_premise.csv";
             String lookupItemFilePath = "C:\\Users\\User2022\\Downloads\\lookup_item.csv";
             //read three csv files
