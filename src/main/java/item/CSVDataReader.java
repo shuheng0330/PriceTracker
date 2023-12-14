@@ -37,3 +37,31 @@ import java.util.regex.Pattern;
         }
     }
 
+    //import java.io.BufferedReader;
+//import java.io.FileReader;
+//import java.io.IOException;
+//import java.util.ArrayList;
+//import java.util.List;
+//import java.util.regex.Matcher;
+//import java.util.regex.Pattern;
+//
+//public class CSVDataReader {
+//
+//    public static List<String[]> readCSV(String filePath) {
+//        List<String[]> data = new ArrayList<>();
+//        Pattern pattern = Pattern.compile(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+//
+//        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+//            String line;
+//            while ((line = br.readLine()) != null) {
+//                String[] fields = pattern.split(line, -1);
+//                data.add(fields);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//        return data;
+//    }
+//}
+

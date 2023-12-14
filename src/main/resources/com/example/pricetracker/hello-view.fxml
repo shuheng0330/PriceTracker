@@ -7,31 +7,13 @@
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pricetracker.HelloController">
   <children>
-    <AnchorPane prefHeight="400.0" prefWidth="195.0" style="-fx-background-color: #DA0505;">
-      <children>
-        <Label layoutX="34.0" layoutY="279.0" text="(60)-182674881">
-          <font>
-            <Font name="Arial Black" size="15.0" />
-          </font>
-        </Label>
-        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="23.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
-          <image>
-            <Image url="C:\Users\User2022\IdeaProjects\PriceTracker\src\main\java\com\example\pricetracker\burger.png" />
-          </image>
-        </ImageView>
-      </children></AnchorPane>
-    <AnchorPane prefHeight="400.0" prefWidth="407.0" style="-fx-background-color: #F1F109;">
+    <AnchorPane prefHeight="400.0" prefWidth="364.0" style="-fx-background-color: #fcf8de;">
       <children>
         <Label layoutX="100.0" layoutY="26.0" text="PriceTracker" underline="true">
           <font>
             <Font name="Arial Black" size="25.0" />
           </font>
         </Label>
-        <Button fx:id="button_cancel" layoutX="340.0" layoutY="33.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #A9A9A9; cursor: hand;" text="Cancel">
-          <font>
-            <Font name="SansSerif Regular" size="12.0" />
-          </font>
-        </Button>
         <Label layoutX="150.0" layoutY="70.0" text="Login" underline="true">
           <font>
             <Font name="Arial Black" size="25.0" />
@@ -46,29 +28,41 @@
             <Image url="C:\Users\User2022\IdeaProjects\PriceTracker\src\main\java\com\example\pricetracker\user.png" />
           </image>
         </ImageView>
-        <TextField fx:id="tf_username" layoutX="100.0" layoutY="122.0" prefHeight="30.0" prefWidth="250.0" promptText="Username" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2;" />
-        <Button fx:id="button_login" layoutX="151.0" layoutY="284.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #7277E8; -fx-cursor: hand;" text="Login">
+        <TextField fx:id="tf_username" layoutX="76.0" layoutY="119.0" prefHeight="30.0" prefWidth="250.0" promptText="Username" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2;" />
+        <Button fx:id="button_login" layoutX="132.0" layoutY="236.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #FFFFFF; -fx-cursor: hand;" text="Login">
           <font>
             <Font name="SansSerif Regular" size="25.0" />
           </font>
         </Button>
-        <Label layoutX="121.0" layoutY="359.0" text="Not a user?">
+        <Label layoutX="87.0" layoutY="301.0" text="Not a user yet?">
           <font>
             <Font name="SansSerif Regular" size="15.0" />
           </font>
         </Label>
-        <Button fx:id="button_signup" layoutX="203.0" layoutY="355.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign up!" textFill="#2e0cee" underline="true">
+        <Button fx:id="button_signup" layoutX="188.0" layoutY="296.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign up!" textFill="#2e0cee" underline="true">
           <font>
             <Font name="SansSerif Regular" size="15.0" />
           </font>
         </Button>
-        <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-          <image>
-            <Image url="C:\Users\User2022\IdeaProjects\PriceTracker\src\main\java\com\example\pricetracker\search-product.png" />
-          </image>
-        </ImageView>
-            <PasswordField fx:id="pf_password" layoutX="100.0" layoutY="185.0" prefHeight="30.0" prefWidth="250.0" promptText="Password" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 5;" />
+            <PasswordField fx:id="pf_password" layoutX="74.0" layoutY="185.0" prefHeight="30.0" prefWidth="250.0" promptText="Password" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 5;" />
+        <Button fx:id="button_cancel" layoutX="151.0" layoutY="363.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #FFFFFF; cursor: hand;" text="Cancel">
+          <font>
+            <Font name="SansSerif Regular" size="12.0" />
+          </font>
+        </Button>
+            <Button layoutX="112.0" layoutY="323.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Forgot password?" textFill="#3a09cd" underline="true">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Button>
       </children>
     </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="236.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="17.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\User2022\Downloads\屏幕截图 2023-12-14 104222.png" />
+               </image></ImageView>
+         </children></AnchorPane>
   </children>
 </HBox>
